@@ -7,9 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.3",
+    "onnxruntime-gpu>=1.24.3",
+    "opencv-python>=4.13.0.92",
+    "tensorrt-cu12>=10.15.1.29",
     "torch>=2.10.0",
     "torchaudio>=2.10.0",
     "torchvision>=0.25.0",
+    "tqdm>=4.67.3",
 ]
 
 
