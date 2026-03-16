@@ -44,7 +44,7 @@ class AsyncCamera:
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-model = YOLO("yolov8n.pt")
+model = YOLO("yolo26n.pt")
 model.to(device)
 
 
